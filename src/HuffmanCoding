@@ -1,0 +1,13 @@
+Huffman Coding:
+    ->  It is a lossless algorithm for data compression (No data loss)
+
+    STEPS:
+        -> Pass the main String that needs to be compressed (data,aka feeder)
+        -> Make frequency map on it
+        -> For every key in the frequency map, create a node and insert that node in a min heap/priority queue
+        -> Node data: char data;int cost-> frequency;Node left;Node right
+        -> Remove 2 elements from heap and combine
+        ->
+        ->
+        -> How to encode/decode?
+            String

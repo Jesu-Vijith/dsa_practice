@@ -1,0 +1,8 @@
+Sqrt Decomposition:
+    -> Used to optimize queries
+    -> Reduces time complexity to O(sqrt(N))
+
+   STEPS:
+        -> Divide the array into blocks of size root(N)
+        -> Compute answer for every block
+        -> Given a question or query for left to right, combine the blocks that contain this

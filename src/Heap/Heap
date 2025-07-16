@@ -1,0 +1,23 @@
+-> The insertion of element in a data structure takes O(N) times and fetching the smallest element from
+    that will also takes O(N) or maybe O(N^2) times
+-> Heap will be used when we want to fetch an element from data structure in a constant time O(1)
+-> So for insertion instead of O(N) or O(N^2), heap will make use of O(logN) time complexity.
+-> The elements in a heap will be stored as an array, but represented as a tree
+
+Properties of Heap:
+    1) It is represented as a complete binary tree
+
+    2) Every node value is >= all of its children (Even though the elements below the top element may
+        not be sorted, it is okay)
+
+    3)How heaps are represented as tree even though originally it is an array?
+           -> For every element in index i in a heap, its parent will always be i/2.
+           -> Hence, it is possibly represented as a tree.
+
+    4) For any element i:
+            -> its left element = i*2
+            -> its right element = i*2+1
+
+    5) Pointers like node.next is not required
+    6) Height of a heap tree is log(N)
+    7) Both insertion and removal will take O(logN) time complexity
