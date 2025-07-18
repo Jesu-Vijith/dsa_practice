@@ -1,12 +1,12 @@
 package Trees.LeetCode;
-
+import Trees.BinarySearchTree.Node;
 public class    BalancedBinaryTree_110 {
-        public boolean isBalanced(TreeNode root) {
+        public boolean isBalanced(Node root) {
             int height=balanced(root);
             System.out.println(height);
             return Math.abs(height)>1?false:true;
         }
-        private int balanced(TreeNode root){
+        private int balanced(Node root){
             if(root==null){
                 return 0;
             }
