@@ -35,6 +35,7 @@ public class Heap<T extends Comparable<T>> {
             swap(index, p);
             upheap(p);
         }
+        System.out.println("CurrentList: "+list);
     }
 
     public T remove() throws Exception {
@@ -71,9 +72,12 @@ public class Heap<T extends Comparable<T>> {
     }
     public void heapSort() throws Exception {
         ArrayList<T>data =new ArrayList<>();
+        System.out.println("List while entering heapSort(): "+this.list);
+        System.out.println("Data before while loop: "+data);
         while(!list.isEmpty()){
             data.add(this.remove());
         }
+        System.out.println("Data after while loop: "+data);
         for(int i=data.size()-1;i>=0;i--){
             this.insert(data.get(i));
         }
