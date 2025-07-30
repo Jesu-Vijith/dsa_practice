@@ -15,11 +15,7 @@ public class L_560_SubarraySum {
             if(subNum.containsKey(total-k)){
                 count+=subNum.get(total-k);
             }
-
             subNum.put(total, subNum.getOrDefault(total, 0) + 1);
-        }
-        for(Map.Entry<Integer,Integer>map:subNum.entrySet()){
-            System.out.println(map.getKey()+" : "+map.getValue());
         }
         return count;
     }
