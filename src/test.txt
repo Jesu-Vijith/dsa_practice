@@ -1,1 +1,132 @@
-Hey this is my DSA Practice
+ARRAYS:
+
+Easy Level (Warm-up but important for interviews)
+Two Sum – #1
+
+Best Time to Buy and Sell Stock – #121
+
+Remove Duplicates from Sorted Array – #26
+
+Merge Sorted Array – #88
+
+Majority Element – #169
+
+Missing Number – #268
+
+🟡 Medium Level (Core interview questions)
+👉 Sliding Window
+Minimum Size Subarray Sum – #209
+
+Longest Substring Without Repeating Characters – #3
+
+👉 Prefix Sum / HashMap
+Subarray Sum Equals K – #560
+
+Contiguous Array – #525
+
+👉 Sorting & Two Pointers
+3Sum – #15
+
+Container With Most Water – #11
+
+Product of Array Except Self – #238
+
+👉 Greedy & Optimization
+Jump Game – #55
+
+Gas Station – #134
+
+🔴 Hard Level (Asked in top-tier interviews)
+First Missing Positive – #41
+
+Trapping Rain Water – #42
+
+Maximum Subarray Sum with One Deletion – #1186
+
+Sliding Window Maximum – #239
+
+Merge k Sorted Lists – #23 (priority queue + arrays)
+
+🔁 Bonus: Patterns to Practice
+Two Pointers
+
+Sliding Window
+
+Prefix Sum
+
+Binary Search in Arrays
+
+Greedy & Kadane’s Algorithm
+
+Monotonic Stack (used in Trapping Rain Water & Sliding Window Max)
+
+
+
+
+
+
+
+STRINGS:
+
+✅ Easy Level (String basics + edge case handling)
+#14. Longest Common Prefix
+
+#20. Valid Parentheses
+
+#125. Valid Palindrome
+
+#344. Reverse String
+
+#387. First Unique Character in a String
+
+#242. Valid Anagram
+
+🟡 Medium Level (Core string manipulation + pattern finding)
+🔄 Sliding Window / Hashing
+#3. Longest Substring Without Repeating Characters
+
+#567. Permutation in String
+
+#76. Minimum Window Substring
+
+✂️ Substring / Split / Count
+#5. Longest Palindromic Substring
+
+#6. Zigzag Conversion
+
+#22. Generate Parentheses
+
+#151. Reverse Words in a String
+
+#647. Palindromic Substrings
+
+💬 Encoding / Decoding / Compression
+#271. Encode and Decode Strings (Design question)
+
+#443. String Compression
+
+🔴 Hard Level (DP, backtracking, string building)
+#10. Regular Expression Matching
+
+#44. Wildcard Matching
+
+#68. Text Justification
+
+#65. Valid Number
+
+#32. Longest Valid Parentheses
+
+#420. Strong Password Checker
+
+🔁 Bonus: Patterns to Master
+Two Pointers on Strings
+
+Sliding Window
+
+KMP Algorithm (for pattern matching)
+
+Trie (for prefix/suffix problems)
+
+Dynamic Programming for Substrings/Subsequences
+
+Stack-based string parsing (e.g., valid parentheses, expression evaluators)

@@ -18,6 +18,7 @@ public class L_242_ValidAnagram {
 
             }
         }
+        return false;
     }
     public static void main(String[] args) {
         L_242_ValidAnagram anag=new L_242_ValidAnagram();

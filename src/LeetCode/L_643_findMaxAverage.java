@@ -1,6 +1,6 @@
 package LeetCode;
 
-public class findMaxAverage_643{
+public class L_643_findMaxAverage {
 //    public double findMaxAverage(int[] nums, int k) {
 //        double max=0;
 //        int avg=k;
@@ -36,7 +36,7 @@ public class findMaxAverage_643{
     }
 
     public static void main(String[] args) {
-        findMaxAverage_643 f1=new findMaxAverage_643();
+        L_643_findMaxAverage f1=new L_643_findMaxAverage();
         int[]nums={0,4,0,3,2};
         int k=1;
         System.out.println(f1.findMaxAverage(nums,k));
