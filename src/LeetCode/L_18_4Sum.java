@@ -6,44 +6,43 @@ import java.util.List;
 
 public class L_18_4Sum {
     public List<List<Integer>> fourSum(int[] nums, int target) {
-        int a=0;
-        int b=1;
-        int c=2;
-        int d=nums.length-1;
+        List<List<Integer>> outer=new ArrayList<>();
         Arrays.sort(nums);
-        List<List<Integer>> list=new ArrayList<>();
-        while(a<d){
-            while(c>b && b<d){
-                int total=nums[a]+nums[b]+nums[c]+nums[d];
-                System.out.println(nums[a]+" "+nums[b]+" "+nums[c]+" "+nums[d]+" total: "+total);
-                if(b>1 && nums[b]==nums[b-1]){
-                    break;
+        for(int a=0;a<nums.length-3;a++){
+            if(a>0 && nums[a]==nums[a-1]){
+                continue;
+            }
+            for(int b=a+1;b<nums.length-2;b++){
+                if(b>a+1 && nums[b]==nums[b-1]){
+                    continue;
                 }
-                if(total<target){
-                    b++;
-                }
-                else if(total>target){
-                    c--;
-                }
-                else{
-                    list.add(Arrays.asList(nums[a],nums[b],nums[c],nums[d]));
-                    b++;
-                    while(c<d && nums[b]==nums[b-1]){
-                        b++;
+                int left=b+1;
+                int right=nums.length-1;
+                while(left<right){
+                    long total=(long)nums[a]+nums[b]+nums[left]+nums[right];
+                    if(total==target){
+                        outer.add(Arrays.asList(nums[a],nums[b],nums[left],nums[right]));
+                        left++;
+                        while(left<right && nums[left]==nums[left-1]){
+                            left++;
+                        }
+                    }
+                    else if(total<target){
+                        left++;
+                    }
+                    else{
+                        right--;
                     }
                 }
             }
-            a++;
-            b=a+1;
-            c=b+1;
-            d=nums.length-1;
         }
-        return list;
+        return outer;
     }
 
     public static void main(String[] args) {
         L_18_4Sum ans=new L_18_4Sum();
-        int[]nums={1,0,-1,0,-2,2};
-        System.out.println(ans.fourSum(nums,0));
+        int[]nums={1000000000,1000000000,1000000000,1000000000};
+        int target = -294967296;
+        System.out.println(ans.fourSum(nums,target));
     }
 }
