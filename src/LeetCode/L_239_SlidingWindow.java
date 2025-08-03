@@ -6,7 +6,7 @@ import java.util.List;
 
 public class L_239_SlidingWindow {
 
-    //O(N^2)- time limit exceeded
+    //O(N^2)- time limit exceededg
     public int[] maxSlidingWindow(int[] nums, int k) {
         int i=0;
         int j=k-1;
