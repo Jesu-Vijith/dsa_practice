@@ -21,9 +21,9 @@ Gas Station – #134                                          -
 
 HARD:
 First Missing Positive – #41                                -DONE
-Trapping Rain Water – #42                                   -
+Trapping Rain Water – #42                                   -DONE   
 Maximum Subarray Sum with One Deletion – #1186              -
-Sliding Window Maximum – #239                               -
+Sliding Window Maximum – #239                               -DONE
 Merge k Sorted Lists – #23                                  -DONE (but bad time complexity)
 
 Bonus: Patterns to Practice
