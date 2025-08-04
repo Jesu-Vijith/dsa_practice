@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class threeSum_15 {
+public class L_15_3Sum {
     //int[] nums={-1,0,1,2,-1,-4};
     public List<List<Integer>> threeSum(int[] nums) {
         int i=0;
@@ -32,7 +32,7 @@ public class threeSum_15 {
     }
 
     public static void main(String[] args) {
-        threeSum_15 sum=new threeSum_15();
+        L_15_3Sum sum=new L_15_3Sum();
         int[] nums={-1,0,1,2,-1,-4};
         System.out.println(sum.threeSum(nums));
     }

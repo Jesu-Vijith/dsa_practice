@@ -1,8 +1,8 @@
 package LeetCode;
 
-public class Range_sum_query_303 {
+public class L_303_RangeSumQuery {
         int[]arr;
-        public Range_sum_query_303(int[] nums) {
+        public L_303_RangeSumQuery(int[] nums) {
             arr=new int[nums.length];
             int temp=0;
             for(int i=0;i<nums.length;i++){
