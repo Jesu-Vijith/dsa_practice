@@ -13,7 +13,7 @@ Squares of a Sorted Array – #977                            -DONE
 Third Maximum Number – #414                                 -DONE
 Find All Numbers Disappeared in an Array – #448             -DONE
 Check If N and Its Double Exist – #1346                     -DONE (but bad time complexity)
-Replace Elements with Greatest on Right Side – #1299
+Replace Elements with Greatest on Right Side – #1299        -DONE (bad time complexity)
 
 MEDIUM:
 Minimum Size Subarray Sum – #209                            -DONE
@@ -42,7 +42,7 @@ Trapping Rain Water – #42                                   -DONE
 Maximum Subarray Sum with One Deletion – #1186              -Need to learn DP's kadane algorithm to solve this
 Sliding Window Maximum – #239                               -DONE
 Merge k Sorted Lists – #23                                  -DONE (but bad time complexity)
-Maximum Product Subarray – #152
+Maximum Product Subarray – #152                             -DONE(Not thorough.Debug and understand)
 Burst Balloons – #312
 Median of Two Sorted Arrays – #4
 Smallest Range Covering Elements from K Lists – #632
