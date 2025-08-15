@@ -35,6 +35,7 @@ Kth Largest Element in an Array – #215                      -DONE
 Find Peak Element – #162                                    -DONE
 Minimum Number of Arrows to Burst Balloons – #452
 Longest Mountain in Array – #845
+Find K closest Elements - #658                              -DONE
 
 HARD:
 First Missing Positive – #41                                -DONE
