@@ -1,6 +1,6 @@
 package LeetCode;
 
-public class L_209_MinimumSizeSubArray {
+public class  L_209_MinimumSizeSubArray {
 
     // O(N) time complexity
     public int minSubArray(int target,int[]nums){

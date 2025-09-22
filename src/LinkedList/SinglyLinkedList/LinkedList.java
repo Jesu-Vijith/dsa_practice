@@ -1,7 +1,7 @@
 package LinkedList.SinglyLinkedList;
 
 public class LinkedList {
-    private Node head;
+    public Node head;
     private Node tail;
     private int size;
 
@@ -136,7 +136,7 @@ public class LinkedList {
     }
 
     private class Node{
-        private int value;
+        public int value;
         private Node next;
         public Node(int value){
             this.value=value;
@@ -145,5 +145,6 @@ public class LinkedList {
             this.value = value;
             this.next = next;
         }
+
     }
 }

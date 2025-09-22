@@ -1,6 +1,4 @@
-package DSA_patterns;
-
-import java.util.Arrays;
+package DSA_patterns.ArrayPatterns;
 
 public class PrefixSum {
     public static void main(String[] args) {

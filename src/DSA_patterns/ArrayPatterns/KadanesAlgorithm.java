@@ -1,4 +1,4 @@
-package DSA_patterns;
+package DSA_patterns.ArrayPatterns;
 
 public class KadanesAlgorithm {
 

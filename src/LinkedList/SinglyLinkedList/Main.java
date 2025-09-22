@@ -1,5 +1,7 @@
 package LinkedList.SinglyLinkedList;
 
+import LeetCode.L_1721_SwappingNodesInLL;
+
 public class Main {
     public static void main(String[] args) {
         LinkedList l1=new LinkedList();
@@ -8,13 +10,7 @@ public class Main {
         l1.insertLast(8);
         l1.insertLast(9);
         l1.insertLast(17);
-        l1.display();
-        l1.deleteAtIndex(3);
-        l1.deleteAtIndex(3);
-        l1.display();
-        l1.getNode(5);
-
-
+        L_1721_SwappingNodesInLL l=new L_1721_SwappingNodesInLL();
 
     }
 }

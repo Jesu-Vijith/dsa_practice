@@ -1,10 +1,10 @@
-package DSA_patterns;
+package DSA_patterns.ArrayPatterns;
 
 public class SlidingWindow {
 //    nums = [1,12,-5,-6,50,3], k = 4
     public static void main(String[] args) {
-        int[]nums={0,4,0,3,2};
-        int k=1;
+        int[]nums={1,12,-5,-6,50,3};
+        int k=2;
         System.out.println(slide(nums,k));
     }
 
