@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class L_30_SubstringWithConcatination {
+
+    //Own attempt (Passed 124 testcases in leetcode)
     public static void main(String[] args) {
         String s = "barfoofoobarthefoobarman";
         String qn="";
