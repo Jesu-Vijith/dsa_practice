@@ -14,12 +14,14 @@ public class L_2024 {
         int maxFreq=0;
         for(int right=0;right<n;right++){
             char rightChar=answerKey.charAt(right);
-            rightChar=='T'?trues++:falses++;
-            maxFreq=trues>falses?trues:falses;
+            if(rightChar=='T')trues++;
+            else falses++;
+            maxFreq= Math.max(trues, falses);
             while((right-left+1)-maxFreq>k){
                 char leftChar=answerKey.charAt(left++);
-                leftChar=='T'?trues--:falses--;
-                maxFreq=trues>falses?trues:falses;
+                if(leftChar=='T')trues--;
+                else falses--;
+                maxFreq= Math.max(trues, falses);
             }
             length=Math.max(right-left+1,length);
         }
