@@ -1,7 +1,6 @@
-import java.util.ArrayList;
-import java.util.List;
+package Graphs;
 
-public class NQueen {
+public class NQueen1 {
     public void solveNQueens(int n) {
         boolean[][]board=new boolean[n][];
         for(int i =0;i<n;i++) {
@@ -151,7 +150,7 @@ public class NQueen {
 
 
     static void main(String[]args) {
-        NQueen n=new NQueen();
+        NQueen1 n=new NQueen1();
         n.solveNQueens(4);
     }
 }

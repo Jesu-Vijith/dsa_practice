@@ -1,3 +1,5 @@
+package Graphs.LeetCode;
+
 public class L_200_NumberOfIslands {
     static void main() {
         char[][]grid={
