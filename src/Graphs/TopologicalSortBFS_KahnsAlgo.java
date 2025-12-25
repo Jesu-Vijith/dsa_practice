@@ -1,10 +1,12 @@
+package Graphs;
+
 import java.util.*;
 
 //stack -> [5, 2, 3, 4, 1, 0]
 //queue -> [4, 5, 0, 2, 3, 1]
 
 public class TopologicalSortBFS_KahnsAlgo {
-    static void main() {
+    public static void main(String[]args) {
         int[][]adjacency={{},{},{3},{1},{0,1},{0,2}};
         int[] inDegree=new int[adjacency.length];
         for (int[] ints : adjacency) {

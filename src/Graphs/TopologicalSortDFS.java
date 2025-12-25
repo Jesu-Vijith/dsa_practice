@@ -1,9 +1,11 @@
+package Graphs;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
 public class TopologicalSortDFS {
-    static void main() {
+    public static void main(String[]args) {
         int[][]adjacency={{},{},{3},{1},{0,1},{2,0}};
         TopologicalSortDFS t1=new TopologicalSortDFS();
         System.out.println(t1.topological(adjacency));
