@@ -8,7 +8,7 @@ public class DetectCycleInDirectedGraphBFS {
         int[]inDegree=new int[adjacency.length];
         Queue<Integer>queue=new LinkedList<>();
         for(int i=0;i<adjacency.length;i++){
-            for(int elem:adjacency[i]){
+            for(int elem:adjacency[i]) {
                 inDegree[elem]++;
             }
         }
